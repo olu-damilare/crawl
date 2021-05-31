@@ -4,7 +4,7 @@ p{
     color: maroon;
 }
 body{background-color: mediumturquoise;}
-.header{background-color: midnightblue;}
+.header{background-color: whitesmoke}
 #texts{font-family: inherit; color: lightslategrey; font-weight: bolder;}
 [title]{
     cursor: help;
@@ -28,3 +28,14 @@ a:hover{
 a:active{
     background-color: yellow;
 }
+td,table,th {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  th{
+    background-color: #318CE7;
+    color: white;
+  }
+  tr{
+    background-color: #89CFF0;
+  }
