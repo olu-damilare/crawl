@@ -1,0 +1,206 @@
+.mother{
+    width: 40%;
+    margin: auto;
+    box-shadow: 1px 1px 5px 1px #888888;
+    padding-top: 10px;
+    background-color: white;
+    font-family: cabin;
+}
+
+ul{
+    list-style-type: none;
+    display: flex; 
+    position: absolute;
+    left: 30%;
+    bottom: 7px;
+}
+header{
+    height: 100px;
+    
+}
+nav{
+    position: relative;
+    margin-top: 40px;
+}
+li{
+    padding: 15px;
+    font-size: 13px;
+}
+button{
+    width: 90px;
+    height: 35px;
+    font-size: 12px;
+    background-color: #e0115f;
+    color: white;
+    border-style: none;
+    margin-top: 5px;
+}
+header, main{
+    padding:0 5% 0 10%;
+}
+h3{
+    color: #e0115f;
+}
+.heavy_black{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+.logos{
+    width: 17px;
+    height: 15px;
+    padding-left: 20px;
+}
+.vectors{
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    left: 230px;
+    padding-right: 45px;
+    
+}
+figure{
+    position: relative;
+}
+.first{
+    width: 1000px;
+    margin-bottom: 100px;
+    font-size: 14px;
+}
+span{
+    color: #e0115f;
+}
+.text{
+    font-size: 10px;
+}
+
+.second{
+    margin-bottom: 30px;
+}
+
+#margin{
+    margin-bottom: 10px;
+}
+#arrow{
+    position: absolute;
+    left: 100px;
+    top: 7px;
+}
+.leveler{
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: -50px;
+    height: 50px;
+}
+#view_click{
+    margin-left: 50px;
+}
+hr{
+    margin-top: -5px;
+
+}
+#neg{
+    padding-left: 60px;
+    margin-top: -475px;
+    color: grey;
+}
+#down{
+    margin-bottom: -100px;
+}
+#arrow_figure{
+    margin-bottom: 500px;
+}
+#work{
+    display: flex;
+}
+.exp{
+    margin-right: 30px;
+    line-height: 5px;
+}
+.exp2{
+    margin-right: 30px;
+    line-height: 5px;
+}
+#exp2_3{
+    padding-left: 17px;
+    line-height: 5px;
+}
+#exp1_3{
+    line-height: 5px;
+}
+.diff_text{
+    color: grey;
+}
+strong{
+    color: black;
+}
+.third{
+    margin-bottom: 70px;
+}
+.skill_image{
+    height: 30px;
+    width: 30px;
+    margin-left: -35px;
+    margin-bottom:-10px;
+}
+.skill{
+    width: 200px;
+    box-shadow: 1px 1px 5px 1px #888888;
+    padding: 8px;
+    height: 150px;
+    margin-right: 70px;
+}
+.web_text{
+    margin-top: -18px;
+    font-size: 8px;
+}
+.web_inner_text{
+    margin-top: -5px;
+}
+.rectangle{
+    width: 120%;
+    height: 60%;
+    margin-left: -50px;
+}
+.grid{
+    width : 140%;
+    height: 140%;
+    margin-left: -45px;
+}
+.grids{
+    padding-bottom: 50px;
+}
+.second_level{
+    font-size: 12px;
+}
+#circle{
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+
+footer{
+    background-color: #e0115f;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+}
+.finder{
+    margin-left: 115px;
+}
+.last_logos{
+    padding-left: 55px;
+    width: 180px;
+}
+.last{
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+#last_captions{
+    margin-left: 5px;
+}
+
+
+
+
+
