@@ -1,0 +1,64 @@
+.main{
+    display: flex; 
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+.first{
+    border-style: solid; 
+    background-color: blue; 
+    width: 100px; 
+    height: 100px;
+}
+.second{
+    border-style: solid; 
+    background-color:red; 
+    width: 100px; 
+    height: 100px;
+}
+.third{
+    border-style: solid; 
+    background-color: yellow; 
+    width: 100px; 
+    height: 100px;
+}
+
+body{
+    background-color: violet;
+}
+
+@media screen  and (max-width: 480px){
+    body{
+        background-color: yellow;
+    }
+}
+img{
+    filter: blur(5px) hue-rotate(60deg) saturate(2);
+}
+button{
+    width: 100px;
+    height: 50px;
+    background-color: #146d37;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+}
+button:hover{
+    background-color: #60b946;
+}
+.mover{
+    width: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: blueviolet;
+    position: relative;
+    animation-name: move;
+    animation-duration: 4s;
+}
+@keyframes move{
+    0% {background-color: red;left: 0px;top: 0px;}
+    25% {background-color: yellow;left: 200px;top: 0px;}
+    50% {background-color: blue;left: 200px;top: 200px;}
+    75% {background-color: green;left: 0px;top: 200px;}
+    100% {background-color: red;left: 0px;top: 0px;}
+}

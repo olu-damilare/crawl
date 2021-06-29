@@ -1,0 +1,26 @@
+.card{
+    box-shadow: 2px 2px 2px 2px gray;
+    height: 350px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+#apple{
+    background-color: rgb(168, 45, 45);
+    color: white;
+    font-size: 30px;
+}
+#orange{
+    background-color: orange;
+}
+#burger{
+    background-color: #EFDECD;
+}
+#coffee{
+    background-color:   #6F4E37;
+}
+.mother{
+    display: flex;
+}

@@ -1,0 +1,58 @@
+figure{
+border: 1pt;
+padding: 5px;
+width: 150px;
+margin: 0;
+float:left;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.form{
+    line-height: 5px;
+    width: 180px;
+    height: 150px;
+    padding-top: 7px;
+    padding-left: 5px;
+    border-style: solid;
+}
+figcaption{
+    font-size: 10px; 
+}
+article{
+    width: 50%;
+    height: 50%;
+    border-style: solid;
+    margin: auto;
+    /* background-color: black; */
+    color: black;
+    font-size: 15px;
+}
+.first{
+    clear: left;
+}
+
+.overlayed{
+    position: absolute;
+    top: 55px;
+    left: 4px;
+    width: 120px;
+    height: 20px;
+}
+.hide{
+    display: none;
+}
+figcaption.popup{
+    padding: 10px;
+    position: absolute;
+    visibility: hidden;
+    width: 200px;
+    height: 150px;
+}
+figure.thumbnail:hover figcaption.popup{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    visibility: visible;
+}

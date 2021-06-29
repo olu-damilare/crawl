@@ -1,0 +1,51 @@
+.main{
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px #888888;
+    width: 35%;
+    height: 50%; 
+    padding: 40px; 
+    background-color: #FFBF00;  
+    border-radius: 10px;
+}
+
+form{
+    padding-left: 50px;
+}
+input{
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+option{
+    font-weight:600;
+}
+h2{
+    color: purple;
+}
+button{
+    background-color: purple;
+    width: 100px;
+    padding: 6px;
+    margin-left: 150px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+}
+body{
+    background-color: black;
+}
